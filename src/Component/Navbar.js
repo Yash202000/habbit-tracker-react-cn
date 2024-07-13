@@ -87,16 +87,6 @@ const Navbar = () => {
                                         Home
                                     </NavLink>
                                 </li>
-
-                                {/* link to detailspage (to show user's habit and status of habits) */}
-                                {/* if active change the text color */}
-                                <li className="p-1 text-slate-400" onClick={toggleShowMenu}>
-                                    <NavLink style={({ isActive }) => (isActive ? { color: "rgb(129 140 248)" } : undefined)}
-                                                to='/detailspage'>
-                                        Your Habits
-                                    </NavLink>
-                                </li>
-                                
                             </ul> 
 
                         </div>    

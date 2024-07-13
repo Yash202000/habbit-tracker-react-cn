@@ -5,10 +5,8 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 // importing all the required components and pages
 // navbar 
 import Navbar from "./Component/Navbar";
-// the main homepage
-import Homepage from "./Pages/Homepage";
 // details page for showing habit stats
-import DetailsPage from "./Pages/DetailsPage";
+import HomePage from "./Pages/HomePage";
 // error page in case of error
 import { Error } from "./Pages/Error";
 
@@ -25,9 +23,8 @@ function App() {
       errorElement: <Error />,
       children:[
         // to render the homepage
-        {index:true, element: <DetailsPage />},
-        // for rendering the detailspage
-        {path:"/detailspage", element: <Homepage />},
+        {index:true, element: <HomePage />},
+        
       ]
     }
   ]);

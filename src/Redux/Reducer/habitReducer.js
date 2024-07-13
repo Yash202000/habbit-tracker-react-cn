@@ -4,17 +4,11 @@ import { createSlice } from "@reduxjs/toolkit";
 
 
 
-// initial state of redux state
+
 const initialState = { 
-                    //  list of all the habits selected by an user
                     habits:[],
-                    // to show new quote on home screen
-                    quote:{},
-                    // to know whether user clicked on any habit in suggestion list on home screen
                     suggestionSelected:null,
-                    // to show status of a habit on "Your habits" page
                     showStatus:null,
-                    // image url to show image on home page
                     displayImageUrl:'' 
                 }
 
@@ -23,11 +17,8 @@ const initialState = {
 
 // creating Slice to create reducer and extraReducer
 const habitSlice = createSlice({
-    // name
     name:'habitTracker',
-    // initial State of Slice
     initialState,
-    // list of reducers
     reducers:{
         // add a new habit to Habits array
         addHabit:(state,action) => {
