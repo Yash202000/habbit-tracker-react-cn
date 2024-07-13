@@ -88,7 +88,7 @@ const AddHabit = ({handleCloseClick}) => {
             
             
             {/* heading of section */}
-            <h1 className="text-indigo-700 text-lg font-semibold text-center mt-1">
+            <h1 className="text-violet-700 text-lg font-semibold text-center mt-1">
                 Add Habit
                 <button className="hidden md:block float-left bg-red-500 text-white px-[5px] rounded-md"
                     onClick={handleCloseClick}>
@@ -97,7 +97,7 @@ const AddHabit = ({handleCloseClick}) => {
             </h1>
 
             {/* form container to get user's data */}
-            <div className="w-4/5 self-center border-t border-indigo-400">
+            <div className="w-4/5 self-center border-t border-violet-400">
                 
                 {/* form */}
                 <form onSubmit={handleSubmit}>
@@ -113,14 +113,14 @@ const AddHabit = ({handleCloseClick}) => {
                     <input type="text" placeholder="Enter habit name..." 
                             // value given initially { '' or from suggestion selected} 
                             id="habit-name" value={habitName}
-                            className="w-full h-8 rounded my-2 px-1 font-semibold text-indigo-800" 
+                            className="w-full h-8 rounded my-2 px-1 font-semibold text-violet-800" 
                             // changing value of input on change
                             onChange={(e) => setHabitName(e.target.value)} required />
                     <br />
 
                     {/* button to submit the form / add habit  */}
                     <button type="submit" className="bg-[#9b80fc] 
-                                                hover:bg-indigo-500 rounded 
+                                                hover:bg-violet-500 rounded 
                                                 shadow-md p-1 mt-2 text-white 
                                                 font-medium float-right">
                         ADD HABIT

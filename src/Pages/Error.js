@@ -23,13 +23,13 @@ export const Error = () => {
 
     return(
         // main page container
-        <div className="w-screen h-screen p-2 flex justify-center items-center bg-indigo-100">
+        <div className="w-screen h-screen p-2 flex justify-center items-center bg-violet-100">
 
             {/* div showing the error message */}
             <div className=" w-[90%] h-[90%] text-lg">
 
                 {/* page heading */}
-                <h1 className="text-3xl font-bold text-indigo-600 text-center">Error... Something went wrong !!!</h1>
+                <h1 className="text-3xl font-bold text-violet-600 text-center">Error... Something went wrong !!!</h1>
 
                 {/* message for redirecting back to homepage */}
                 <p className="text-center mt-1 font-semibold"> Please Wait, Redirecting back to homepage.</p>

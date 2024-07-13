@@ -43,7 +43,7 @@ const WeekStatus = ({habitIndex,handleCloseClick,showStatus,weekDays}) => {
     // render the section
     return(
         // container
-        <div className="w-full p-1 h-full border-b-2 border-indigo-800 md:border-none">
+        <div className="w-full p-1 h-full border-b-2 border-violet-800 md:border-none">
             
             {/* button to hide the section */}
             {/* hidden on smaller screen */}
@@ -53,7 +53,7 @@ const WeekStatus = ({habitIndex,handleCloseClick,showStatus,weekDays}) => {
             </button>
 
             {/* heading showing name of Habit */}
-            <h1 className="text-center text-2xl text-indigo-600 font-semibold">
+            <h1 className="text-center text-2xl text-violet-600 font-semibold">
                 <span className="text-black">Habit:</span> {showStatus.name}
             </h1>
 

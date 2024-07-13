@@ -39,7 +39,7 @@ const HomePage = () => {
                             p-2 items-center">
                 
                 {/* to show a header on page */}
-                <div className="w-full h-12 rounded shadow-md bg-indigo-300 p-1 px-2 
+                <div className="w-full h-12 rounded shadow-md bg-violet-300 p-1 px-2 
                                 flex justify-between items-center text-xl text-white font-semibold">
                                     
                     <div>
@@ -54,7 +54,7 @@ const HomePage = () => {
                 </div>
 
                 {/* render the different section of page */}
-                <div className="w-full h-[90%] rounded shadow-sm flex bg-indigo-50 p-2 bg-fixed">
+                <div className="w-full h-[90%] rounded shadow-sm flex bg-violet-50 p-2 bg-fixed">
                     
                     {/* render the list of all the habits selected by a user */}
                     <HabitList />

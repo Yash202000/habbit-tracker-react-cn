@@ -92,7 +92,7 @@ const HabitStatus = () => {
                 {/* <NavLink to="/"> */}
 
                     {/* button to redirect to homepage */}
-                    <button className="bg-indigo-400 hover:bg-indigo-500 
+                    <button className="bg-violet-400 hover:bg-violet-500 
                                     float-right p-1 rounded text-white"
                                     onClick={toggleAddHabit}
                                     >
@@ -111,7 +111,7 @@ const HabitStatus = () => {
                     
                     {/* show when user didn't click on any habit from the habit list */}
                     { !showStatus?
-                        <h1 className="text-center text-2xl text-indigo-600 font-semibold">
+                        <h1 className="text-center text-2xl text-violet-600 font-semibold">
                             {habits.length !== 0 ?
                                 // if list containes some items
                                 'Select habit from list to know your weekly status'
@@ -158,7 +158,7 @@ const HabitStatus = () => {
                         // if user's habit list is empty
                         habits.length === 0 ?
                             // show following message
-                            <div className="w-full text-2xl text-center font-semibold text-indigo-600">
+                            <div className="w-full text-2xl text-center font-semibold text-violet-600">
                                 'Nothing in Your List'
                             </div>
                         :
